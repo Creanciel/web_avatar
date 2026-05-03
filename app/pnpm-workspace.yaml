@@ -1,14 +1,16 @@
 packages:
   - apps/*
 
-catalogMode: prefer
-
 catalog:
+  '@tailwindcss/vite': ^4.2.4
   "@types/node": ^24
+  tailwindcss: ^4.2.4
   typescript: ^5
   vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
   vite-plus: latest
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
+
+catalogMode: prefer
 overrides:
   vite: "catalog:"
   vitest: "catalog:"
