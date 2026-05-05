@@ -1,5 +1,5 @@
 {
-  "name": "practice-mediapipe",
+  "name": "web-avatar",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mediapipe/tasks-vision": "catalog:",
+    "@pixiv/three-vrm": "catalog:",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "three": "catalog:"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -19,6 +22,7 @@
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@types/three": "catalog:",
     "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
