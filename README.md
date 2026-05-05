@@ -2,6 +2,26 @@
 
 MediaPipe (Pose Landmarker) を使って VRM を動かすサンプル
 
+## 準備
+
+### Vite+
+
+サンプルでは Vite+ を使っているのでインストールが必要になります。
+
+### 3D モデル
+
+サンプルで使われる 3D モデルはバンドルしていません。
+
+VRM の本家ドワンゴ・ニコニコの Alicia Solid を想定しています。
+下記の URL からダウンロードして指定の場所に置いてお試しください。
+
+<https://3d.nicovideo.jp/works/td32797>
+
+VRM の配置場所
+
+- app/apps/practice-vrm/public/models/AliciaSolid.vrm
+- app/apps/web-avatar/public/models/AliciaSolid.vrm
+
 ## 構成
 
 ### Practice MediaPipe
