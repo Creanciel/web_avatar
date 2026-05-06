@@ -3,7 +3,33 @@
     {
       "name": "web_avatar",
       "path": "."
+    },
+    {
+      "name": "mediapipe",
+      "path": "app/apps/practice-mediapipe"
+    },
+    {
+      "name": "vrm",
+      "path": "app/apps/practice-vrm"
+    },
+    {
+      "name": "web-avatar",
+      "path": "app/apps/web-avatar"
     }
   ],
-  "settings": {}
+  "settings": {
+    "oxc.fmt.configPath": "./vite.config.ts",
+    "[javascript]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode",
+      "editor.formatOnSave": true
+    }
+  }
 }
